@@ -9,7 +9,7 @@ html {
   }
   
   body {
-    background-color: var(--cor-fundo-cinza-escuro);
+    background: linear-gradient(to bottom, var(--cor-fundo-cinza-claro), var(--cor-fundo-cinza-escuro));
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
   }

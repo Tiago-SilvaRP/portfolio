@@ -29,7 +29,20 @@
     font-size: var(--fonte-extra-grande);
     font-weight: 500;
     margin-bottom: 20px;
-    color: var(--cor-primaria);      
+    color: var(--cor-primaria);  
+    text-align: center;
+    animation: tecnologias 0.8s infinite alternate ease-in-out;    
+}
+
+@keyframes tecnologias {
+    0% {
+        opacity: 0.3;
+    }
+    
+    100% {
+        opacity: 0.9;
+        color: var(--cor-secundaria);
+    }
 }
 
 .habilidades .container-habilidades .informacoes p {
@@ -39,14 +52,10 @@
 
 .habilidades .container-habilidades .informacoes .logo i {
     font-size: 8rem;
+    animation: tecnologias 0.8s infinite alternate ease-in-out
 }
 
 .habilidades .container-habilidades .informacoes i {
     display: flex;
     justify-self: center;
 }
-
-.habilidades .container-habilidades .informacoes h3{
-    text-align: center;
-}
-
