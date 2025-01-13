@@ -63,3 +63,7 @@
     padding-top: 10px;
     bottom: 0;
 }
+
+.projetos .container-projetos .projeto a:hover{
+    color: var(--cor-primaria);
+}
