@@ -1,6 +1,6 @@
 /* HABILIDADES */
 .habilidades .container-habilidades {    
-    text-align: center;    
+    /* text-align: center;     */
     display: flex;
     justify-content: center;    
     flex-direction: row;
@@ -13,6 +13,7 @@
 }
 
 .habilidades .container-habilidades .informacoes p,
+.habilidades .container-habilidades .informacoes textarea,
 .habilidades .container-habilidades .informacoes h3,
 .habilidades .container-habilidades .informacoes .logo i{
     transition: all .3s ease;
@@ -42,3 +43,13 @@
 .habilidades .container-habilidades .informacoes .logo i {
     font-size: 8rem;
 }
+
+.habilidades .container-habilidades .informacoes i {
+    display: flex;
+    justify-self: center;
+}
+
+.habilidades .container-habilidades .informacoes h3{
+    text-align: center;
+}
+
