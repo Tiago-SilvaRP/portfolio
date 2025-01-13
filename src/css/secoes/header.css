@@ -54,7 +54,7 @@
     flex-direction: column;
     cursor: pointer;
 }
-  
+
 .header .hamburguer {
     position: relative;
     display: block;
@@ -102,7 +102,6 @@
     transform: rotate(90deg);
     bottom: 0;
 }
-
 
 @media(max-width: 1280px) { 
     .header {
