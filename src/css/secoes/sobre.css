@@ -1,5 +1,5 @@
 /* SOBRE MIM */
-.sobre-mim .imagem-sobre-mim {    
+.sobre-mim .imagem-sobre-mim {
     max-width: 40%;
     padding: 0 15px;
 }
@@ -15,10 +15,10 @@
     border-radius: 10px;
 }
 
-.sobre-mim .informacoes-sobre-mim {    
+.sobre-mim .informacoes-sobre-mim {
     max-width: 60%;
-    padding: 0 25px;   
-    align-self: center; 
+    padding: 0 25px;
+    align-self: center;
 }
 
 .sobre-mim .informacoes-sobre-mim .botoes {
@@ -31,18 +31,18 @@
     margin-bottom: 20px;
 }
 
-@media(max-width: 1280px) { 
-    .sobre-mim .row{
+@media(max-width: 1280px) {
+    .sobre-mim .row {
         justify-content: center;
     }
 
-    .sobre-mim .imagem-sobre-mim {        
+    .sobre-mim .imagem-sobre-mim {
         max-width: 100%;
         padding: 0 var(--mobile-padding);
         margin-bottom: 50px;
     }
 
-    .sobre-mim .informacoes-sobre-mim {  
+    .sobre-mim .informacoes-sobre-mim {
         padding: 0 var(--mobile-padding);
         text-align: center;
     }
@@ -54,8 +54,8 @@
     }
 }
 
-@media(max-width:768px){
-    .sobre-mim .informacoes-sobre-mim {  
-        max-width: 100%;                   
+@media(max-width:768px) {
+    .sobre-mim .informacoes-sobre-mim {
+        max-width: 100%;
     }
 }

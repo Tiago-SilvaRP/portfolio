@@ -7,19 +7,23 @@
     letter-spacing: 2px;
 }
 
-.home .texto-home, .home .img-home {
+.home .texto-home,
+.home .img-home {
     flex: 0 0 50%;
     max-width: 50%;
     padding: 0 15px;
 }
 
 @media(max-width: 1280px) {
-    .home .texto-home, .home .img-home {
+
+    .home .texto-home,
+    .home .img-home {
         flex: 0 0 1000%;
         max-width: 100%;
         text-align: center;
         padding: 0 var(--mobile-padding);
     }
+
     .home .img-home {
         margin-top: 50px;
     }
