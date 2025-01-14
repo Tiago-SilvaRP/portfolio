@@ -39,7 +39,6 @@
 
 .header nav ul li a:hover {
     background-color: var(--cor-primaria);
-    ;
     color: var(--cor-branca);
 }
 
@@ -90,16 +89,16 @@
     display: none;
 }
 
-.header input:checked~label .hamburguer {
+.header input:checked ~ label .hamburguer {
     transform: rotate(45deg);
 }
 
-.header input:checked~label .hamburguer:before {
+.header input:checked ~ label .hamburguer:before {
     transform: rotate(90deg);
     top: 0;
 }
 
-.header input:checked~label .hamburguer:after {
+.header input:checked ~ label .hamburguer:after {
     transform: rotate(90deg);
     bottom: 0;
 }
@@ -115,8 +114,8 @@
         display: block;
     }
 
-    /* pega todos os itens que após o input e que sao irmaos dele */
-    .header nav input:checked~ul {
+    /* ~ pega todos os itens que após o input e que sao irmaos dele */
+    .header nav input:checked ~ ul {
         display: block;
     }
 
@@ -131,6 +130,9 @@
         display: none;
         background-color: var(--cor-fundo-escuro);
         padding: 20px;
+        border: solid 1px var(--cor-primaria);
+        opacity: .7;
+        border-radius: 10px;
     }
 
     .header nav li a {
