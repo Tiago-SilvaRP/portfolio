@@ -1,8 +1,8 @@
 .footer {
     margin-top: 7rem;
     text-align: center;
-    background-color: var(--cor-fundo-cinza-claro);
     border-top: solid 1px var(--cor-secundaria);
+    background: linear-gradient(to bottom, var(--cor-fundo-cinza-claro), var(--cor-fundo-cinza-escuro));
 }
 
 .footer .container {
