@@ -33,7 +33,7 @@
     max-width: 450px;
     margin: auto;
     border-radius: 50%;
-    background: linear-gradient(to bottom, var(--cor-fundo-cinza-claro), var(--cor-fundo-cinza-escuro));
+    background: radial-gradient(circle, var(--cor-fundo-azul-medio), var(--cor-fundo-cinza-claro), var(--cor-fundo-cinza-escuro));
 }
 
 .home .img-home .img-box img {

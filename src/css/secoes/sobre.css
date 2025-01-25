@@ -11,7 +11,7 @@
 
 .sobre-mim .imagem-sobre-mim img {
     border-radius: 10px;
-    background: linear-gradient(to bottom, var(--cor-fundo-cinza-claro), var(--cor-fundo-cinza-escuro));
+    background: radial-gradient(circle, var(--cor-fundo-azul-medio), var(--cor-fundo-cinza-claro), var(--cor-fundo-cinza-escuro));
 }
 
 .sobre-mim .informacoes-sobre-mim {
